@@ -3,7 +3,7 @@
     <title>Benjamin Lupton</title>
     <link href="http://balupton.com/atom.xml" rel="self"/>
     <link href="http://balupton.com"/>
-    <updated>2011-12-15T11:03:01Z</updated>
+    <updated>2011-12-23T18:05:17Z</updated>
     <id>http://balupton.com</id>
     <author>
         <name>Benjamin Lupton</name>
@@ -20,10 +20,254 @@
         
     
         
+    
+        
+    
+        
+    
+        
+            <entry>
+                <title>new post</title>
+                <link href="http://balupton.com/posts/demo.html"/>
+                <updated>2011-12-23T16:22:57Z</updated>
+                <id>http://balupton.com/posts/demo.html</id>
+                <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lange=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;!-- Meta --&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+    &lt;title&gt;Bootstrap, from Twitter&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+    &lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;images/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;images/apple-touch-icon.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;72x72&quot; href=&quot;images/apple-touch-icon-72x72.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;114x114&quot; href=&quot;images/apple-touch-icon-114x114.png&quot;&gt;
+
+    &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+        &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Styles --&gt;
+    &lt;link href=&quot;/styles/style.css&quot; rel=&quot;stylesheet&quot;/&gt;
+    &lt;link href=&quot;/vendor/prettify.css&quot; rel=&quot;stylesheet&quot;/&gt;
+    
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Scripts --&gt;
+    &lt;script src=&quot;/vendor/jquery-1.6.4.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/vendor/prettify.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/_docpad/plugins/admin/scripts/script.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Markup --&gt;
+    &lt;div class=&quot;topbar&quot;&gt;
+        &lt;div class=&quot;fill&quot;&gt;
+            &lt;div class=&quot;container fixed&quot;&gt;
+                &lt;h3&gt;&lt;a href=&quot;/&quot;&gt;Welcome&lt;/a&gt;&lt;/h3&gt;
+                &lt;ul&gt;
+                    
+                        
+                    
+                        
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/tutorial2.html&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/tutorial2.html&quot; property=&quot;dc:title&quot;&gt;tutorial 2&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                    
+                        
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/tutorial.html&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/tutorial.html&quot; property=&quot;dc:title&quot;&gt;tutorial&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+            
+
+&lt;div id=&quot;post&quot; class=&quot;post&quot;&gt;
+    &lt;h1&gt;A First Level Header&lt;/h1&gt;
+
+&lt;h2&gt;A Second Level Header&lt;/h2&gt;
+
+&lt;p&gt;Now is the time for all good men to come to&lt;br /&gt;the aid of their country. This is just a&lt;br /&gt;regular paragraph.&lt;/p&gt;
+
+&lt;p&gt;The quick brown fox jumped over the lazy&lt;br /&gt;dog's back.&lt;/p&gt;
+
+&lt;h3&gt;Header 3&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote.&lt;/p&gt;
+  
+  &lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;
+  
+  &lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;footer&gt;
+    
+    &lt;section id=&quot;related&quot;&gt;
+        &lt;h3&gt;Related Posts&lt;/h3&gt;
+        &lt;nav class=&quot;linklist&quot;&gt;
+            
+                &lt;li&gt;&lt;span&gt;Dec 23 2011&lt;/span&gt;
+                &amp;raquo;
+                &lt;a href=&quot;/posts/bonjour.html&quot;&gt;Bonjour&lt;/a&gt;&lt;/li&gt;
+            
+                &lt;li&gt;&lt;span&gt;Dec 23 2011&lt;/span&gt;
+                &amp;raquo;
+                &lt;a href=&quot;/posts/hello.html&quot;&gt;Hello&lt;/a&gt;&lt;/li&gt;
+            
+        &lt;/nav&gt;
+    &lt;/section&gt;
+    
+&lt;/footer&gt;
+        &lt;/section&gt;
+        &lt;footer&gt;
+            &lt;p&gt;&amp;copy; Company 2011&lt;/p&gt;
+            &lt;p style=&quot;float:right;&quot;&gt;
+                This website was generated on 2011-12-23T18:05:17Z and has 29 documents
+            &lt;/p&gt;
+        &lt;/footer&gt;
+        &lt;section id=&quot;source&quot; class=&quot;source&quot;&gt;
+            &lt;h3 id=&quot;source-header&quot;&gt;&lt;a&gt;Click to view this page's source&lt;/a&gt;&lt;/h3&gt;
+            &lt;div id=&quot;source-code&quot;&gt;
+                &lt;div&gt;src/posts/demo.html.md&lt;/div&gt;
+                &lt;pre class=&quot;prettyprint&quot;&gt;---
+title: 'new post'
+layout: 'post'
+tags: ['greeting','french']
+---
+
+A First Level Header
+====================
+
+A Second Level Header
+---------------------
+
+Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.
+
+The quick brown fox jumped over the lazy
+dog's back.
+
+### Header 3
+
+&amp;gt; This is a blockquote.
+&amp;gt; 
+&amp;gt; This is the second paragraph in the blockquote.
+&amp;gt;
+&amp;gt; ## This is an H2 in a blockquote
+&lt;/pre&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;&lt;!-- /container --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+            </entry>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
             <entry>
                 <title>Bonjour</title>
                 <link href="http://balupton.com/posts/bonjour.html"/>
-                <updated>2011-11-20T21:11:38Z</updated>
+                <updated>2011-12-23T15:47:28Z</updated>
                 <id>http://balupton.com/posts/bonjour.html</id>
                 <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lange=&quot;en&quot;&gt;
@@ -70,9 +314,25 @@
                         
                     
                         
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/getting-started.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/getting-started.html&quot; property=&quot;dc:title&quot;&gt;Getting Started&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/tutorial2.html&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/tutorial2.html&quot; property=&quot;dc:title&quot;&gt;tutorial 2&lt;/a&gt;
                         &lt;/li&gt;
+                        
+                    
+                        
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/tutorial.html&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/tutorial.html&quot; property=&quot;dc:title&quot;&gt;tutorial&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
                         
                     
                         
@@ -135,7 +395,11 @@
         &lt;h3&gt;Related Posts&lt;/h3&gt;
         &lt;nav class=&quot;linklist&quot;&gt;
             
-                &lt;li&gt;&lt;span&gt;Nov 21 2011&lt;/span&gt;
+                &lt;li&gt;&lt;span&gt;Dec 23 2011&lt;/span&gt;
+                &amp;raquo;
+                &lt;a href=&quot;/posts/demo.html&quot;&gt;new post&lt;/a&gt;&lt;/li&gt;
+            
+                &lt;li&gt;&lt;span&gt;Dec 23 2011&lt;/span&gt;
                 &amp;raquo;
                 &lt;a href=&quot;/posts/hello.html&quot;&gt;Hello&lt;/a&gt;&lt;/li&gt;
             
@@ -147,7 +411,7 @@
         &lt;footer&gt;
             &lt;p&gt;&amp;copy; Company 2011&lt;/p&gt;
             &lt;p style=&quot;float:right;&quot;&gt;
-                This website was generated on 2011-12-15T11:03:01Z and has 23 documents
+                This website was generated on 2011-12-23T18:05:16Z and has 29 documents
             &lt;/p&gt;
         &lt;/footer&gt;
         &lt;section id=&quot;source&quot; class=&quot;source&quot;&gt;
@@ -170,10 +434,12 @@ Bonjour **world**&lt;/pre&gt;
         
     
         
+    
+        
             <entry>
                 <title>Hello</title>
                 <link href="http://balupton.com/posts/hello.html"/>
-                <updated>2011-11-20T21:11:36Z</updated>
+                <updated>2011-12-23T15:47:28Z</updated>
                 <id>http://balupton.com/posts/hello.html</id>
                 <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lange=&quot;en&quot;&gt;
@@ -220,9 +486,25 @@ Bonjour **world**&lt;/pre&gt;
                         
                     
                         
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/getting-started.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/getting-started.html&quot; property=&quot;dc:title&quot;&gt;Getting Started&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/tutorial2.html&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/tutorial2.html&quot; property=&quot;dc:title&quot;&gt;tutorial 2&lt;/a&gt;
                         &lt;/li&gt;
+                        
+                    
+                        
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/tutorial.html&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/tutorial.html&quot; property=&quot;dc:title&quot;&gt;tutorial&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
                         
                     
                         
@@ -285,9 +567,13 @@ Bonjour **world**&lt;/pre&gt;
         &lt;h3&gt;Related Posts&lt;/h3&gt;
         &lt;nav class=&quot;linklist&quot;&gt;
             
-                &lt;li&gt;&lt;span&gt;Nov 21 2011&lt;/span&gt;
+                &lt;li&gt;&lt;span&gt;Dec 23 2011&lt;/span&gt;
                 &amp;raquo;
                 &lt;a href=&quot;/posts/bonjour.html&quot;&gt;Bonjour&lt;/a&gt;&lt;/li&gt;
+            
+                &lt;li&gt;&lt;span&gt;Dec 23 2011&lt;/span&gt;
+                &amp;raquo;
+                &lt;a href=&quot;/posts/demo.html&quot;&gt;new post&lt;/a&gt;&lt;/li&gt;
             
         &lt;/nav&gt;
     &lt;/section&gt;
@@ -297,7 +583,7 @@ Bonjour **world**&lt;/pre&gt;
         &lt;footer&gt;
             &lt;p&gt;&amp;copy; Company 2011&lt;/p&gt;
             &lt;p style=&quot;float:right;&quot;&gt;
-                This website was generated on 2011-12-15T11:03:01Z and has 23 documents
+                This website was generated on 2011-12-23T18:05:16Z and has 29 documents
             &lt;/p&gt;
         &lt;/footer&gt;
         &lt;section id=&quot;source&quot; class=&quot;source&quot;&gt;
@@ -317,36 +603,6 @@ Hello **world**&lt;/pre&gt;
 &lt;/body&gt;
 &lt;/html&gt;</content>
             </entry>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
         
     
         

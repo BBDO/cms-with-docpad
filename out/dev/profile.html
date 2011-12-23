@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>CMS stack with Node.js, Express, and MongoDB</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <!-- Shims: IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link href="/styles/style.css" rel="stylesheet"/>
+    <link href="/vendor/prettify.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <!-- Scripts -->
+    <script src="/vendor/jquery-1.6.4.min.js"></script>
+    <script src="/vendor/prettify.js"></script>
+    <script src="/_docpad/plugins/admin/scripts/script.js"></script>
+    <script src="/scripts/script.js"></script>
+
+    <!-- Markup -->
+    <div class="container">
+        <section id="content" class="content">
+            <article typeof="sioc:Post" about="/dev/profile.html">
+  <h1 property="title">
+    Custom CMS<br>
+  </h1>
+  <h2 property="title3">
+    
+    Technologies
+  </h2>
+  <div property="description">
+    
+    Node.js<br>Express <br>Coffeescript<br>MongoDB<br>
+  
+  </div>
+  <h1 property="title2">
+    Front End Editing<br>
+  
+  
+  </h1>
+  <div property="description2">
+    
+    
+    Edit content:&nbsp;<div>1. Alt + Shift + e<br>
+  </div><div>2. select content to begin edit</div><div><br></div><div>* ajax save upon unfocus</div>
+  
+  </div>
+  <h1 property="title4">
+    Supported languages
+  </h1>
+  <div property="description3">
+    Markdown, CoffeeKup, Eco, Jade<br><br>Less, Sass, Stylus<br>
+  </div>
+</article>
+
+        </section>
+        <footer>
+            <p>&copy; K5 2011</p>
+            <p style="float:right;">
+                This website was generated on 2011-12-23T18:05:17Z and has 29 documents
+            </p>
+        </footer>
+        <section id="source" class="source">
+            <h3 id="source-header"><a>Click to view this page's source</a></h3>
+            <div id="source-code">
+                <div>src/dev/profile.html.coffee</div>
+                <pre class="prettyprint">### coffee
+layout: &quot;wrap&quot;
+title: &quot;Custom CMS&lt;br&gt;&quot;
+title2: &quot;Front End Editing&lt;br&gt;\n  \n  &quot;
+title3: &quot;\n    Technologies&quot;
+title4: &quot;Supported languages&quot;
+description: &quot;\n    Node.js&lt;br&gt;Express &lt;br&gt;Coffeescript&lt;br&gt;MongoDB&lt;br&gt;\n  &quot;
+description2: &quot;\n    \n    Edit content:&amp;nbsp;&lt;div&gt;1. Alt + Shift + e&lt;br&gt;\n  &lt;/div&gt;&lt;div&gt;2. select content to begin edit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* ajax save upon unfocus&lt;/div&gt;\n  &quot;
+description3: &quot;Markdown, CoffeeKup, Eco, Jade&lt;br&gt;&lt;br&gt;Less, Sass, Stylus&lt;br&gt;&quot;
+###
+
+article 'typeof': 'sioc:Post', about: @document.url, -&gt;
+    h1 property: 'title', -&gt; @document.title
+    h2 property: 'title3', -&gt; @document.title3
+    div property: 'description', -&gt; @document.description
+
+    h1 property: 'title2', -&gt; @document.title2
+    div property: 'description2', -&gt; @document.description2
+
+    h1 property: 'title4', -&gt; @document.title4
+    div property: 'description3', -&gt; @document.description3
+
+
+</pre>
+            </div>
+        </section>
+    </div><!-- /container -->
+</body>
+</html>
